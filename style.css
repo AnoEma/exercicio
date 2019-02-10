@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+#lol{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                            'nav nav nav nav'
+                            'section section section section'
+                            'aside aside aside aside'
+                            'footer footer footer footer';
+    grid-template-rows: 510px  270px 300px 150px 70px;
+    grid-template-columns: 25vw 25vw 25vw 25vw 25vw;
+}
+header{
+    grid-area: header;
+    background-color: rgba(250, 250, 250, 0.945);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(218, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+section{
+    grid-area: section;
+    background-color: rgb(158, 143, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
+#ouf{
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    align-items:  center;
+}
+input{
+    border-block-end-style: 
+}
+#sal{
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+aside{
+    grid-area: aside;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kz{
+    
+    font-family: 'Pacifico', cursive;
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(158, 143, 143);
+}
